@@ -1,0 +1,90 @@
+
+#MainMenu {visibility: visible !important;} /* 3 dots menu ko visible rakhta hai */
+header {visibility: visible !important;}    /* Top bar ko active rakhta hai jahan 3 dots hote hain */
+footer {visibility: hidden;}
+/* --- GLOBAL APP THEME --- */
+
+.stApp {
+    background: #f8fafc !important;
+    font-family: 'Inter', sans-serif !important;
+    color: #1e293b !important;
+}
+
+header {visibility: hidden;}
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+/* --- SIDEBAR DESIGN --- */
+section[data-testid="stSidebar"] {
+    background: #0f172a !important;
+    border-right: 1px solid #1e293b !important;
+    padding: 20px 10px !important;
+}
+
+section[data-testid="stSidebar"] div[role="radiogroup"] label div:first-child {
+    display: none !important;
+}
+
+section[data-testid="stSidebar"] div[role="radiogroup"] label {
+    background-color: transparent !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+    margin-bottom: 6px !important;
+    cursor: pointer !important;
+}
+
+section[data-testid="stSidebar"] div[role="radiogroup"] label:hover {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+section[data-testid="stSidebar"] div[role="radiogroup"] label p {
+    color: #cbd5e1 !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+}
+
+/* --- HERO BANNER CLASS --- */
+.hero-banner {
+    background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+    padding: 30px;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.hero-subtitle {
+    margin: 6px 0 0 0;
+    font-size: 0.92rem;
+    color: #e0e7ff;
+}
+
+/* --- CHAT BUBBLES --- */
+.stChatMessage {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 14px !important;
+    padding: 18px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03) !important;
+    margin-bottom: 14px !important;
+}
+
+/* --- MATCH BOX CLASS --- */
+.match-box {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    color: #166534;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
